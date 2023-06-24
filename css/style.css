@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+}
+.nav-item::after{
+	content:'';
+	display:block;
+	width:0px;
+	height:2px;
+	background:#ffa500;
+	transition: 0.2s;
+}
+.nav-item:hover::after{
+	width:100%;
+}
+.img-thumb,.card-img-top{
+transition: transform .2s;
+}
+.img-thumb:hover {
+  transform: scale(1.1);
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.row{
+	margin-bottom:50px;
+}
+.disabled{
+	color: grey;
+	opacity: 0.7;
+	font-size: 12px;
+}
+.fs-2{
+	color: #ff733a;
+}
+.rodape-prin{
+    margin: 0px;
+    background-color:  rgb(0, 0, 0);       
+    clear: both;
+    padding: 40px;         
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
